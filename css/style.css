@@ -1,0 +1,337 @@
+@import url("reset.css");
+
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.wrapper{
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.page{
+	background: url("../img/bg.jpg") center / cover no-repeat;
+	min-height: 100vh;
+}
+
+.page__body{
+	position: absolute;
+	bottom: 10%;
+	left: 30%;
+}
+
+.car{
+	position: relative;
+	width: 600px;
+	height: 300px;
+}
+
+.car__mainframe{
+	background: url("../img/icons/main-frame.svg") 0 0 / 100% no-repeat;
+	width: 575.5px;
+	height: 202.5px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	z-index: 1;
+}
+
+.car__bottom{
+	background: url("../img/icons/bottom.svg") 0 0 / 100% no-repeat;
+	width: 507.5px;
+	height: 95px;
+	position: absolute;
+	top: 113px;
+	left: 33px;
+}
+
+.car__dark-gradient{
+	background: url("../img/icons/dark-gradient.svg") 0 0 / 100% no-repeat;
+	width: 578px;
+	height: 94.5px;
+	position: absolute;
+	top: 112px;
+	left: -2px;
+	z-index: 2;
+}
+
+.car__hood{
+	background: url("../img/icons/hood.svg") 0 0 / 100% no-repeat;
+	width: 150.55px;
+	height: 30px;
+	position: absolute;
+	top: 88px;
+	left: 23px;
+	z-index: 3;
+}
+
+.car__roof{
+	background: url("../img/icons/roof.svg") 0 0 / 100% no-repeat;
+	width: 325px;
+	height: 30px;
+	position: absolute;
+	top: -3px;
+	left: 215px;
+	z-index: 4;
+}
+
+.car__indicator{
+	background: url("../img/icons/indocator.svg") 0 0 / 100% no-repeat;
+	width: 21.75px;
+	height: 9.4px;
+	position: absolute;
+	top: 106px;
+	left: 30px;
+	z-index: 5;
+}
+
+.car__headlight{
+	background: url("../img/icons/headlight.svg") 0 0 / 100% no-repeat;
+	width: 11.1px;
+	height: 31.12px;
+	position: absolute;
+	top: 124px;
+	left: 15px;
+	z-index: 6;
+}
+
+.car__grill{
+	background: url("../img/icons/grill.svg") 0 0 / 100% no-repeat;
+	width: 31.5px;
+	height: 46.5px;
+	position: absolute;
+	top: 163px;
+	left: -5px;
+	z-index: 7;
+}
+
+.car__doors{
+	background: url("../img/icons/doors.svg") 0 0 / 100% no-repeat;
+	width: 283.5px;
+	height: 169.16px;
+	position: absolute;
+	top: 20px;
+	left: 144px;
+	z-index: 8;
+}
+
+.car__thresholds{
+	background: url("../img/icons/thresholds.svg") 0 0 / 100% no-repeat;
+	width: 518.5px;
+	height: 72.5px;
+	position: absolute;
+	top: 136px;
+	left: 28px;
+	z-index: 9;
+}
+
+.car__window-one{
+	background: url("../img/icons/window-one.svg") 0 0 / 100% no-repeat;
+	width: 100.19px;
+	height: 62.12px;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	z-index: 10;
+}
+
+.car__window-two{
+	background: url("../img/icons/window-two.svg") 0 0 / 100% no-repeat;
+	width: 88.57px;
+	height: 62.16px;
+	position: absolute;
+	top: 29px;
+	left: 322px;
+	z-index: 11;
+}
+
+.car__window-three{
+	background: url("../img/icons/window-three.svg") 0 0 / 100% no-repeat;
+	width: 106.58px;
+	height: 64.14px;
+	position: absolute;
+	top: 25px;
+	left: 426px;
+	z-index: 12;
+}
+
+.car__window-four{
+	background: url("../img/icons/window-four.svg") 0 0 / 100% no-repeat;
+	width: 27.13px;
+	height: 60.06px;
+	position: absolute;
+	top: 24px;
+	left: 524px;
+	z-index: 13;
+}
+
+.car__mirrors{
+	background: url("../img/icons/mirrors.svg") 0 0 / 100% no-repeat;
+	width: 27.07px;
+	height: 26.6px;
+	position: absolute;
+	top: 73px;
+	left: 194px;
+	z-index: 14;
+}
+
+.car__front-handle{
+	background: url("../img/icons/front-handle.svg") 0 0 / 100% no-repeat;
+	width: 25.06px;
+	height: 11px;
+	position: absolute;
+	top: 116px;
+	left: 280px;
+	z-index: 15;
+}
+
+.car__back-handle{
+	background: url("../img/icons/back-handle.svg") 0 0 / 100% no-repeat;
+	width: 25.06px;
+	height: 11px;
+	position: absolute;
+	top: 113px;
+	left: 396px;
+	z-index: 16;
+}
+
+.car__front-brake-caliper{
+	background: url("../img/icons/front-brake-caliper.svg") 0 0 / 100% no-repeat;
+	width: 92px;
+	height: 92px;
+	position: absolute;
+	top: 160px;
+	left: 53px;
+	z-index: 17;
+}
+
+.car__back-brake-caliper{
+	background: url("../img/icons/back-brake-caliper.svg") 0 0 / 100% no-repeat;
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 158px;
+	left: 423px;
+	z-index: 18;
+}
+
+.car__front-tyre{
+	background: url("../img/icons/front-tyre.svg") 0 0 / 100% no-repeat;
+	width: 136.49px;
+	height: 136.49px;
+	position: absolute;
+	top: 140px;
+	left: 32px;
+	z-index: 19;
+}
+
+.car__back-tyre{
+	background: url("../img/icons/back-tyre.svg") 0 0 / 100% no-repeat;
+	width: 161.39px;
+	height: 161.39px;
+	position: absolute;
+	top: 127px;
+	left: 388px;
+	z-index: 20;
+}
+
+.car__front-mercedes-logo{
+	background: url("../img/icons/mercedes-logo.svg") 0 0 / 100% no-repeat;
+	width: 17.97px;
+	height: 17.92px;
+	position: absolute;
+	top: 199px;
+	left: 90px;
+	z-index: 21;
+}
+
+.car__back-mercedes-logo{
+	background: url("../img/icons/mercedes-logo.svg") 0 0 / 100% no-repeat;
+	width: 17.97px;
+	height: 17.97px;
+	position: absolute;
+	top: 196px;
+	right: 123px;
+	z-index: 22;
+}
+
+.car__front-shock-absorbers{
+	background: url("../img/icons/front-shock-absorbers.svg") 0 0 / 100% no-repeat;
+	width: 10.88px;
+	height: 20.08px;
+	position: absolute;
+	top: 151px;
+	left: 122px;
+}
+
+.car__back-shock-absorbers{
+	background: url("../img/icons/back-shock-absorbers.svg") 0 0 / 100% no-repeat;
+	width: 22.88px;
+	height: 21.08px;
+	position: absolute;
+	top: 145px;
+	right: 146px;
+}
+
+.car__rear-bumper{
+	background: url("../img/icons/rear-bumper.svg") 0 0 / 100% no-repeat;
+	width: 54px;
+	height: 32px;
+	position: absolute;
+	top: 169px;
+	right: 23px;
+	z-index: 23;
+}
+
+.car__door-panels-above{
+	background: url("../img/icons/door-panels-above.svg") 0 0 / 100% no-repeat;
+	width: 505px;
+	height: 30px;
+	position: absolute;
+	top: 111px;
+	left: 39px;
+	z-index: 24;
+}
+
+.car__door-panels-below{
+	background: url("../img/icons/door-panels-below.svg") 0 0 / 100% no-repeat;
+	width: 250px;
+	height: 20px;
+	position: absolute;
+	top: 155px;
+	left: 152px;
+	z-index: 25;
+}
+
+.car__exhaust{
+	background: url("../img/icons/exhaust.svg") 0 0 / 100% no-repeat;
+	width: 33px;
+	height: 16px;
+	position: absolute;
+	top: 201px;
+	left: 365px;
+}
+
+.car__backlight{
+	background: url("../img/icons/backlight.svg") 0 0 / 100% no-repeat;
+	width: 6px;
+	height: 13px;
+	position: absolute;
+	bottom: 145px;
+	right: 33px;
+	z-index: 26;
+}
+
+.car__spare-wheel{
+	background: url("../img/icons/spare-wheel.svg") 0 0 / 100% no-repeat;
+	width: 46px;
+	height: 99px;
+	position: absolute;
+	top: 41px;
+	right: 7px;
+	z-index: 27;
+}
+
